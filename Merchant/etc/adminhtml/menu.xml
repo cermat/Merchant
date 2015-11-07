@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Credevlabz. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Credevlabz_Merchant::credevlabz_indexadminindex" title="Marketplace" module="Credevlabz_Merchant" parent="" sortOrder="20" dependsOnModule="Credevlabz_Merchant" action="merchant/indexadmin/index" resource="Credevlabz_Merchant::credevlabz_indexadminindex"/>
+<!--AddMenu-->
+    </menu>
+</config>
