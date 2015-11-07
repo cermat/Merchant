@@ -1,11 +1,8 @@
 {
   "name": "credevlabz/merchant",
-  "description": "N/A",
+  "description": "Merchant Module for Magento (in development), extended for Marketplace implementation.",
   "type": "magento2-module",
   "version": "1.0.0-beta",
-  "license": [
-    "proprietary"
-  ],
   "require": {
         "php": "~5.5.0|~5.6.0|~7.0.0",
         "magento/module-store": "1.0.0-beta",
@@ -13,8 +10,11 @@
         "magento/framework": "1.0.0-beta",
         "magento/module-eav": "1.0.0-beta",
         "magento/module-authorization": "1.0.0-beta",
-        "magento/module-catalog": "1.0.0-beta",
+        "magento/module-catalog": "1.0.0-beta"
   },
+  "license": [
+    "proprietary"
+  ],
   "extra": {
         "map": [
             [
