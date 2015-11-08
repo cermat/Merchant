@@ -53,10 +53,16 @@ class Index extends \Magento\Framework\App\Action\Action
      * Flush cache storage
      *
      */
-    public function execute()
+    /* public function execute()
     {
         $this->resultPage = $this->resultPageFactory->create();  
 		return $this->resultPage;
         
+    } */
+	
+	public function executeInternal($coreRoute = null)
+    {
+        $this->resultPage = $this->resultPageFactory->create();  
+		return $this->resultPage;
     }
 }
